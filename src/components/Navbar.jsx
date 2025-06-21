@@ -1,16 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
-const Navbar = () => {
-  const [theme, setTheme] = useState("cupcake");
-
-  // Load theme from localStorage
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "cupcake";
-    setTheme(savedTheme);
-    document.documentElement.setAttribute("data-theme", savedTheme);
-  }, []);
-
+const Navbar = ({ theme, setTheme }) => {
   const toggleTheme = () => {
     const newTheme = theme === "cupcake" ? "forest" : "cupcake";
     setTheme(newTheme);
@@ -24,10 +15,6 @@ const Navbar = () => {
         <div className="flex-1">
           <a className="btn btn-ghost text-4xl font-extrabold" style={{ fontFamily: "'Lobster', cursive" }}>SR</a>
         </div>
-        {/* <div className="flex-1">
-        <div className="btn btn-ghost text-4xl font-extrabold flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white w-16 h-16" style={{ fontFamily: "'Lobster', cursive" }}> SR</div>
-</div> */}
-
         <div className="flex items-center gap-4">
           <ul className="menu menu-horizontal hidden md:flex gap-2">
             <li><a className="font-bold">About</a></li>
@@ -36,7 +23,6 @@ const Navbar = () => {
             <li><a className="font-bold">Hobbies</a></li>
           </ul>
           <button className="btn btn-outline">Resume</button>
-
           <button onClick={toggleTheme} className="btn btn-ghost text-xl">
             {theme === "cupcake" ? <FaMoon /> : <FaSun />}
           </button>
