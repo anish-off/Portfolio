@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profilePic from "../assets/selfipic.jpg";
+import { Element } from "react-scroll";
 
 const HeroSection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -13,6 +14,7 @@ const HeroSection = () => {
   }, []);
 
   return (
+    <Element name="hero" className="w-full">
     <div className="bg-base-100 min-h-screen flex items-center justify-center">
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center">
         {/* Profile Image */}
@@ -57,6 +59,7 @@ const HeroSection = () => {
         </div>
       </div>
     </div>
+    </Element>
   );
 };
 
