@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto mt-4">
+    <div className="max-w-6xl mx-auto mt-4 fixed top-0 left-0 right-0 z-50">
       <div className="navbar bg-base-100 rounded-xl shadow-lg px-6 py-4">
         <div className="flex-1">
           <a className="btn btn-ghost text-4xl font-extrabold" style={{ fontFamily: "'Lobster', cursive" }}>SR</a>
