@@ -12,7 +12,7 @@ This site is built using **React** and **Vite**, designed to showcase my work, s
 
 ## How to View
 
-Visit the live website at [srianish.vercel.app](https://srianish.vercel.app) to explore my portfolio.
+Visit my portfolio [here](https://srianish.vercel.app).
 
 ## License
 
