@@ -5,7 +5,6 @@ const skills = [
   "Python",
   "Java",
   "Node",
-  "AWS",
   "MongoDB",
   "React",
   "Gen AI",
@@ -25,8 +24,9 @@ const About = () => {
         </h2>
         <div className="w-16 h-1 bg-primary rounded-full mb-8" />
         <p className="max-w-3xl text-center text-2xl mb-12 font-montserrat text-base-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quisquam impedit rerum sapiente harum ut voluptate, laboriosam dicta optio illum quasi quas placeat corporis voluptatum velit aperiam ducimus fugit magnam.
-        </p>
+I'm currently pursuing a B.Tech in Artificial Intelligence and Machine Learning at Kongu Engineering College. I’m passionate about AI, especially Generative AI, Large Language Models (LLMs), intelligent agents, and full-stack web development using the MERN stack.
+
+I'm continuously learning, building projects, and exploring the intersection of machine learning and real-world applications. My goal is to contribute to innovative AI solutions and develop intelligent systems that solve real-world problems.        </p>
         {/* Marquee/Carousel, theme-aware with DaisyUI */}
         <div className="w-full overflow-x-hidden py-4">
           <div className="relative w-full max-w-6xl mx-auto">
