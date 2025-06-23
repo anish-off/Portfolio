@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Element } from "react-scroll";
+import BelugaChatImg from "../assets/belugachat-ss.png";
+import PortfolioImg from "../assets/portfolio.png";
 
 const projects = [
   {
@@ -8,21 +10,28 @@ const projects = [
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80",
     description: "AI-powered tool for extracting and validating invoice data. Integrates with ERP.",
     tech: ["React", "FastAPI", "PostgreSQL", "AWS", "OpenAI"],
-    link: "https://github.com/yourusername/smart-invoice-ai",
+    link: "#",
   },
   {
     name: "Langchain Playground",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
     description: "Experiment with Langchain and LLM workflows. Includes chat, retrieval, and agents.",
     tech: ["Langchain", "Python", "Streamlit"],
-    link: "https://github.com/yourusername/langchain-playground",
+    link: "#",
   },
   {
     name: "Personal Portfolio",
-    image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80",
+    image: PortfolioImg,
     description: "Responsive React portfolio site with theme switching and dynamic projects.",
     tech: ["React", "DaisyUI", "TailwindCSS"],
-    link: "https://github.com/yourusername/portfolio",
+    link: "#",
+  },
+  {
+    name: "Chat Application",
+    image: BelugaChatImg,
+    description: "A real-time chat app with private messaging, built using the MERN stack. Features include authentication, and responsive UI",
+    tech: ["React", "DaisyUI", "TailwindCSS", "MongoDB", "Express"],
+    link: "https://github.com/anish-off/BelugaChat",
   },
 ];
 
@@ -42,7 +51,7 @@ const Projects = () => (
         {projects.map((project, idx) => (
           <div
             key={idx}
-            className="relative group rounded-xl overflow-hidden shadow-xl border-2 border-black aspect-[2.4/1] bg-base-100"
+            className="relative group rounded-xl overflow-hidden shadow-xl border-2 border-black  bg-base-100 w-full h-80"
           >
             {/* Project image */}
             <img
@@ -50,6 +59,7 @@ const Projects = () => (
               alt={project.name}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 z-0"
             />
+
             {/* Overlay on hover */}
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-6 z-10">
               <div className="text-2xl font-bold mb-2 text-white text-center">{project.name}</div>
