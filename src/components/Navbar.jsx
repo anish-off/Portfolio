@@ -62,13 +62,13 @@ const Navbar = ({ theme, setTheme }) => {
             </li>
             <li>
               <Link
-                to="hobbies"
+                to="blogs"
                 smooth={true}
                 duration={500}
                 offset={-80}
                 className="font-bold cursor-pointer"
               >
-                Hobbies
+                Blogs
               </Link>
             </li>
           </ul>
