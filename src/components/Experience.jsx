@@ -36,7 +36,7 @@ const Experience = () => {
           </h2>
           <div className="w-16 h-1 bg-primary rounded-full mb-8" />
           <p className="max-w-3xl text-center text-2xl mb-12 font-montserrat text-base-content">
-            Since graduating from Ursinus College in 2018, I have worked as a full stack software engineer in the professional space.
+            Currently pursuing a B.Tech in Artificial Intelligence and Machine Learning at Kongu Engineering College.
           </p>
           {/* Carousel Panel */}
           <div
