@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer.jsx";
 // import your theme provider if using one
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        <Footer />
         
       </>
     // </ThemeProvider>
