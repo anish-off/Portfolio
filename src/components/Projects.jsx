@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { Element } from "react-scroll";
 import BelugaChatImg from "../assets/belugachat-ss.png";
 import PortfolioImg from "../assets/portfolio.png";
+import OlfactiveEchoImg from "../assets/olfactiveecho.png";  
 
 const projects = [
   {
@@ -13,10 +14,10 @@ const projects = [
     link: "#",
   },
   {
-    name: "Langchain Playground",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
-    description: "Experiment with Langchain and LLM workflows. Includes chat, retrieval, and agents.",
-    tech: ["Langchain", "Python", "Streamlit"],
+    name: "Olfactive Echo",
+    image: OlfactiveEchoImg,
+    description: "Ecommerce fragrance store with AI-powered guidance to help users discover perfumes based on scent notes.",
+    tech: ["Reac", "Node", "MongoDB", "Express","Shadcn" , "Langchain"],
     link: "#",
   },
   {
