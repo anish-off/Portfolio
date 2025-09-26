@@ -11,7 +11,7 @@ const projects = [
   {
     name: "One-Stop Personalized Career & Education Advisor",
     image: OneStopCarrerPlatfrom,
-    description: "Find your perfect course, college, and career path with AI-powered personalized guidance — all in one place.",
+    description: "Find your perfect course, college, and career path with AI-powered personalized guidance - all in one place.",
     tech: ["React", "Langchain", "Langgraph", "Ollama","Node","Express","Shadcn", "MongoDB", "TailwindCSS"],
     link: "#",
   },
