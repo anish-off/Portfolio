@@ -4,37 +4,40 @@ import { Element } from "react-scroll";
 import BelugaChatImg from "../assets/belugachat-ss.png";
 import PortfolioImg from "../assets/portfolio.png";
 import OlfactiveEchoImg from "../assets/olfactiveecho.png";  
+import OneStopCarrerPlatfrom from "../assets/one-stop-career-platform.png";
+
 
 const projects = [
   {
-    name: "Smart Invoice AI",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80",
-    description: "AI-powered tool for extracting and validating invoice data. Integrates with ERP.",
-    tech: ["React", "FastAPI", "PostgreSQL", "AWS", "OpenAI"],
+    name: "One-Stop Personalized Career & Education Advisor",
+    image: OneStopCarrerPlatfrom,
+    description: "Find your perfect course, college, and career path with AI-powered personalized guidance — all in one place.",
+    tech: ["React", "Langchain", "Langgraph", "Ollama","Node","Express","Shadcn", "MongoDB", "TailwindCSS"],
     link: "#",
   },
   {
     name: "Olfactive Echo",
     image: OlfactiveEchoImg,
-    description: "Ecommerce fragrance store with AI-powered guidance to help users discover perfumes based on scent notes.",
-    tech: ["Reac", "Node", "MongoDB", "Express","Shadcn" , "Langchain"],
-    link: "#",
+    description: "Discover your signature scent with an AI-powered fragrance shopping experience.",
+    tech: ["React", "Node", "MongoDB", "Express", "Shadcn", "Langchain", "Langgraph"],
+    link: "https://github.com/anish-off/OlfactiveEcho",
   },
   {
     name: "Personal Portfolio",
     image: PortfolioImg,
-    description: "Responsive React portfolio site with theme switching and dynamic projects.",
+    description: "A sleek, responsive portfolio that showcases projects with dynamic themes and smooth design.",
     tech: ["React", "DaisyUI", "TailwindCSS"],
     link: "#",
   },
   {
     name: "Chat Application",
     image: BelugaChatImg,
-    description: "A real-time chat app with private messaging, built using the MERN stack. Features include authentication, and responsive UI",
-    tech: ["React", "DaisyUI", "TailwindCSS", "MongoDB", "Express"],
+    description: "Real-time private messaging with a seamless, responsive chat experience built on MERN stack.",
+    tech: ["React", "DaisyUI", "TailwindCSS", "MongoDB", "Express","Node"],
     link: "https://github.com/anish-off/BelugaChat",
   },
 ];
+
 
 const Projects = () => (
 <Element name="projects" className="w-full">
