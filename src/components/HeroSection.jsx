@@ -28,7 +28,7 @@ const HeroSection = () => {
         <div className="text-center">
           <h1 className="text-5xl font-bold mb-4">Hi, I'm Srianish Rameshwaran</h1>
           <p className="text-xl text-base-content/80 mb-6">
-          AI Developer | JavaScript | React
+          AI Developer | Full Stack Web Developer
           </p>
 
           {/* Social Icons */}
