@@ -13,7 +13,7 @@ const projects = [
     image: OneStopCarrerPlatfrom,
     description: "Find your perfect course, college, and career path with AI-powered personalized guidance - all in one place.",
     tech: ["React", "Langchain", "Langgraph", "Ollama","Node","Express","Shadcn", "MongoDB", "TailwindCSS"],
-    link: "#",
+    link: "https://github.com/Subicharan1018/One-Stop-Personalized-Career-Education-Advisor",
   },
   {
     name: "Olfactive Echo",
