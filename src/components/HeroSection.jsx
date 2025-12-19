@@ -20,7 +20,7 @@ const HeroSection = () => {
         {/* Profile Image */}
         <div className="avatar mb-6">
           <div className="w-56 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-            <img src="" alt="Profile" />
+            <img src={profilePic} alt="Profile" />
           </div>
         </div>
 
