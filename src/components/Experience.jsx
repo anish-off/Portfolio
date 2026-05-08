@@ -7,7 +7,7 @@ const experiences = [
     title: "Student",
     duration: "2023 - Current",
     description:
-      "Currently pursuing a Master's degree in AIML, focusing on AI and Machine Learning.",
+      "Currently pursuing a B.Tech in Artificial Intelligence and Machine Learning.",
   },
   {
     company: "Vidyaa Vikas International School",
