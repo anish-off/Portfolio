@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import profilePic from "../assets/selfipic.jpg";
+import profilePic from "../assets/profile.jpg";
 import { Element } from "react-scroll";
 
 const HeroSection = () => {
