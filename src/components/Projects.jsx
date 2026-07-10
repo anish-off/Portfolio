@@ -5,9 +5,17 @@ import BelugaChatImg from "../assets/belugachat-ss.png";
 import PortfolioImg from "../assets/portfolio.png";
 import OlfactiveEchoImg from "../assets/olfactiveecho.png";  
 import OneStopCarrerPlatfrom from "../assets/one-stop-career-platform.png";
+import ConstructionImg from "../assets/construction.png";
 
 
 const projects = [
+  {
+    name: "Construction Procurement Assistant (CPA)",
+    image: ConstructionImg,
+    description: "AI-powered procurement assistant that converts raw land/project inputs into parameters, estimates material quantities using XGBoost, and maps them to nearby vendors.",
+    tech: ["React", "Python", "Flask", "XGBoost", "FAISS", "TailwindCSS"],
+    link: "https://github.com/Subicharan1018/ctai",
+  },
   {
     name: "One-Stop Personalized Career & Education Advisor",
     image: OneStopCarrerPlatfrom,
